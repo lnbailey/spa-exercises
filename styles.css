@@ -1,0 +1,167 @@
+/* Main Page Styling */
+
+body {
+	background: url("spa-bg.jpg");
+	background-repeat:no-repeat;
+    background-size:cover;
+	color: #8E8888;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+h1 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 2.5em;
+	color: #6FA2A6;
+	border-top: 2px dotted #6FA2A6;
+	border-bottom: 2px dotted #6FA2A6;
+}
+h2 {
+	color: #696864;
+	font-size: 1.4em;
+}
+h3 {
+	color: #696864;
+	font-size: 1em;
+}
+p {
+	color: #696864;
+	font-size: 1em;
+}
+div {
+	font-size: 1.5em;
+}
+a {
+	color: #6FA2A6;
+	font-weight: 800;
+	font-size: 1.2em;
+}
+a:hover {
+	color: #696864;
+}
+button  {
+	font-size: 1.2em;
+	color: whitesmoke;
+	background: #6FA2A6;
+	border: 0;
+	padding: 10px 20px;
+	margin-top: 10px;
+	outline: none;
+	border-radius: 8px;
+	cursor: pointer;
+	min-width: 150px;
+}
+button:hover  {	
+	color: #ddd;
+}
+button a {
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 20px;
+}
+button a:hover {
+	color: #ddd;
+}
+
+.app-links button {
+	display: block;
+	margin: 30px auto;
+	font-size: 1.4em;
+	font-weight: 200;
+
+}
+input {
+	color: #696864;
+	padding: 8px;
+	min-width: 200px;
+	font-size: 1.2em;
+	border: 0;
+	text-align: center;
+}
+input:focus { 
+	outline: none;
+	background: whitesmoke;
+}
+li {
+	list-style: none;
+	font-weight: 900;
+	margin-left: -35px;
+	
+}
+footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:45px;
+	width:100%;
+	background:#696864;
+	color: #ddd;
+	padding-top: 20px;
+	font-size: .9em;
+}
+
+/* Cards */
+
+.hint {
+	color: #8E8888;
+	font-style: italic;
+}
+
+/* Begin Events Listeners */
+.section-text {
+	color: #6FA2A6;
+	font-weight: bolder;
+}
+#output-target {
+	height: 50px;
+}
+#page-title {
+	cursor: pointer;
+}
+.article-section {
+	cursor: pointer;
+	font-style: italic;
+	font-weight: 900;
+}
+.over {
+	font-style: italic;
+	color: #6FA2A6;
+}
+.leave {
+	color: #8E8888;
+}
+
+/* Guinea Pig Buttons */
+#guinea-pig {
+	width: 50%;
+	margin: 0 auto;
+}
+.button {
+	display: block;
+	margin: 10px auto;
+}
+.color {
+	color: #6FA2A6;
+}
+.hulkify {
+	font-size: 2.5em;
+}
+.border {
+	border: 2px solid #6FA2A6;
+}
+.border-round {
+	border: 2px solid #6FA2A6;
+	border-radius: 50%;
+	color: #ddd;
+	background: #8E8888;
+}
+.first {
+	font-weight: bold;
+}
+.sixth {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* End Events Listeners */
